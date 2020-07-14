@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Portfolio AP</title>
+    <link rel="stylesheet" href="./assets/plugins/bootstrap-4.2.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/preloader.css">
+    <link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./assets/plugins/slick/slick-theme.css">
+    <link rel="stylesheet" href="./assets/plugins/fontawesome/css/all.min.css">
+    <link rel="icon" href="./assets/images/favicon.ico" type="images/x-icon">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <!--PRELOADER-->
+        <div class="preloader" id="preloader">
+            <div class="windows8">
+                <div class="wBall" id="wBall_1">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_2">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_3">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_4">
+                    <div class="wInnerBall"></div>
+                </div>
+                <div class="wBall" id="wBall_5">
+                    <div class="wInnerBall"></div>
+                </div>
+            </div>
+        </div>
+        <!--END OF PRELOADER-->
+
+        <!----- HEADER ----->
+        <a href="javascript:void(0)" class="mob-sandwich">
+            <span></span>
+        </a>
+        <aside class="main-nav">
+            <figure>
+                <img src="./assets/images/my-photo.jpg" alt="my-photo">
+                <figcaption class="name-main">Artem Panasyuk</figcaption>
+            </figure>
+            <nav class="nav-menu">
+                <ul>
+                    <li class="dots active" onclick="currentSlide(1)">
+                        <i class="fa fa-home" aria-hidden="true"></i>
+                        <span>home</span>
+                    </li>
+                    <li class="dots" onclick="currentSlide(2)">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <span>about me</span>
+                    </li>
+                    <li class="dots" onclick="currentSlide(3)">
+                        <i class="fa fa-list-alt" aria-hidden="true"></i>
+                        <span>resume</span>
+                    </li>
+                    <li class="dots" onclick="currentSlide(4)">
+                        <i class="fa fa-briefcase" aria-hidden="true"></i>
+                        <span>portfolio</span>
+                    </li>
+                    <li class="dots" onclick="currentSlide(5)">
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                        <span>blog</span>
+                    </li>
+                    <li class="dots" onclick="currentSlide(6)">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <span>contact</span>
+                    </li>
+                </ul>
+            </nav>
+            <div class="soc-aside d-flex justify-content-center mt-5">
+                <a href="https://vk.com/proger_art" class="soc-aside-item"><i class="fab fa-vk"></i></a>
+                <a href="https://www.facebook.com/artpan1302" class="soc-aside-item"><i class="fab fa-facebook"></i></a>
+                <a href="https://t.me/ArtPan1302" class="soc-aside-item"><i class="fab fa-telegram"></i></a>
+                <a href="mailto:der1302@mail.ru" class="soc-aside-item"><i class="fas fa-envelope-open-text"></i></a>
+            </div>
+            <div class="all-rights text-center mt-5">
+                2020 © AP <br> All Right Reserved.
+            </div>
+        </aside>
+
+        <!----- MAIN SITE ----->
+        <div class="main-slider" id="carouselContainer">
+            <section class="sec-1 mySlide">
+                <div class="wrapp-flex">
+                    <ul class="sec-1-carousel">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <h1 class="name-1">Artem <span>Panasyuk</span></h1>
+                    <h4 class="front-dev">I am a <span>Frontend Developer</span></h4>
+                </div>
+            </section>
+
+            <section class="sec-2 mySlide fade-anim">
+                <div class="container">
+                    <h2>About Me. <i class="fa fa-user" aria-hidden="true"></i></h2>
+                    <div class="row about-me">
+                        <div class="col-lg-8 col-12">
+                            <h4>Frontend Developer and HTML Typesetter</h4>
+                            <p>Dolor reprehenderit aut repudiandae maiores recusandae. Consequatur dolor nisi labore commodi ipsa? Excepturi velit laboriosam at voluptatibus cupiditate est vel. Dolorem praesentium itaque fugiat placeat quas consequatur? Obcaecati natus rerum</p>
+                            <p>Consectetur consectetur nesciunt nesciunt blanditiis amet? Quod quis unde aliquid excepturi laudantium? Illo architecto aliquam velit illo magnam neque perferendis sint Incidunt eius ipsa inventore labore eos velit. Minus hic magni reiciendis necessitatibus ex Quidem officia deleniti accusamus obcaecati dolores. Porro culpa quibusdam impedit porro praesentium excepturi. Alias ab consequatur?</p>
+                        </div>
+                        <div class="col-lg-4 col 12">
+                            <h4>Personal Information</h4>
+                            <ul>
+                                <li><span class="title">Name</span><span class="value">Artem Panasyuk</span></li>
+                                <li><span class="title">Age</span><span class="value">24 Years</span></li>
+                                <li><span class="title">Residence</span><span class="value">Moscow region, Russia</span></li>
+                                <li><span class="title">Address</span><span class="value">Sergiev Posad</span></li>
+                                <li><span class="title">Email</span><span class="value"><a href="mailto:der1302@mail.ru">der1302@mail.ru</a></span></li>
+                                <li><span class="title">Freelance</span><span class="value">Available</span></li>
+                            </ul>
+                            <a href="https://sergievposad.hh.ru/resume_converter/%D0%9F%D0%B0%D0%BD%D0%B0%D1%81%D1%8E%D0%BA%20%D0%90%D1%80%D1%82%D0%B5%D0%BC%20%D0%92%D1%8F%D1%87%D0%B5%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%B8%D1%87.pdf?hash=f35632aaff0713cd6d0039ed1f5467474c706f&type=pdf&hhtmSource=resume_view&hhtmFrom=" class="btn-download">download resume</a>
+                        </div>
+                    </div>
+                    <div class="block-services">
+                        <div class="subheading">
+                            <h3>services</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md-3">
+                                <i class="fa fa-laptop" aria-hidden="true"></i>
+                                <h4>Web Development</h4>
+                                <p>Amet aspernatur delectus maxime ducimus similique Ratione <br>asperiores corporis provident aut libero.</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <i class="fab fa-wordpress"></i>
+                                <h4>WordPress Development</h4>
+                                <p>Amet aspernatur delectus maxime ducimus similique Ratione <br>asperiores corporis provident aut libero.</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <i class="fa fa-mobile" aria-hidden="true"></i>
+                                <h4>HTML Adaptive Layout</h4>
+                                <p>Amet aspernatur delectus maxime ducimus similique Ratione <br>asperiores corporis provident aut libero.</p>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <i class="fa fa-globe" aria-hidden="true"></i>
+                                <h4>Internet Managment</h4>
+                                <p>Amet aspernatur delectus maxime ducimus similique Ratione <br>asperiores corporis provident aut libero.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sec-3 mySlide fade-anim">
+                <div class="container">
+                    <h2>NOT my Resume :) <i class="fa fa-list-alt" aria-hidden="true"></i></h2>
+                    <div class="e-block row">
+                        <div class="exper col-12 col-lg-6">
+                            <div class="subheading">
+                                <h3>experience</h3>
+                            </div>
+                            <div class="e-block-item">
+                                <h4>Lead UI Designer</h4>
+                                <div class="blue-upper">Big Design Company, NY, USA</div>
+                                <p class="descr">Sit cupiditate praesentium ex esse nulla Facere fuga perspiciatis eveniet provident neque Ea ratione non minus temporibus ipsum Sunt minima </p>
+                                <span class="years-from">2016</span>
+                                <span class="years-to">2018</span>
+                            </div>
+                            <div class="e-block-item mt-5">
+                                <h4>Web Designer</h4>
+                                <div class="blue-upper">Design Company, London, UK</div>
+                                <p class="descr">Dolor id atque accusantium ut impedit odit provident soluta voluptatem Veritatis ipsam neque mollitia vero suscipit a laborum doloremque. Ipsa! </p>
+                                <span class="years-from">2015</span>
+                                <span class="years-to">2016</span>
+                            </div>
+                            <div class="e-block-item mt-5">
+                                <h4>Web Developer</h4>
+                                <div class="blue-upper">Exis Development, London, UK</div>
+                                <p class="descr">Consectetur pariatur fugiat ipsam aperiam maiores. Nisi in dignissimos debitis expedita asperiores delectus vitae corporis. </p>
+                                <span class="years-from">2014</span>
+                                <span class="years-to">2015</span>
+                            </div>
+                        </div>
+                        <div class="educ col-12 col-lg-6">
+                            <div class="subheading">
+                                <h3>education</h3>
+                            </div>
+                            <div class="e-block-item">
+                                <h4>MA Graphics</h4>
+                                <div class="blue-upper">Royal College of Art, London, UK</div>
+                                <p class="descr">Consectetur mollitia amet inventore nisi sed. Provident veritatis exercitationem eum doloremque itaque expedita? Ex voluptatem nostrum numquam illum. </p>
+                                <span class="years-from">2013</span>
+                                <span class="years-to">2014</span>
+                            </div>
+                            <div class="e-block-item mt-5">
+                                <h4>BA(HONS) Graphics</h4>
+                                <div class="blue-upper">Central Saint Martins, London, UK</div>
+                                <p class="descr">Elit voluptatibus quas necessitatibus ullam tenetur provident voluptatibus. Ratione delectus lorem minus ipsa architecto. Saepe officiis sint adipisci. </p>
+                                <span class="years-from">2012</span>
+                                <span class="years-to">2013</span>
+                            </div>
+                            <div class="e-block-item mt-5">
+                                <h4>Web & Graphics Diploma</h4>
+                                <div class="blue-upper">Tech Arts Institute, CA, USA</div>
+                                <p class="descr">Ipsum ex exercitationem est aliquid eos saepe. Dolorum aperiam cupiditate labore vero deleniti Aut unde deserunt neque voluptas.</p>
+                                <span class="years-from">2011</span>
+                                <span class="years-to">2012</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills row">
+                        <div class="col-12 col-lg-6">
+                            <div class="subheading ">
+                                <h3>design skills</h3>
+                            </div>
+                            <div class="progr coral">
+                                <h4 class="progr-title">coral draw</h4>
+                                <div class="progr-value">91%</div>
+                                <div class="progr-bar">
+                                    <span class="progr-bar-blue"></span>
+                                </div>
+                            </div>
+                            <div class="progr photoshop mt-3">
+                                <h4 class="progr-title">photoshop</h4>
+                                <div class="progr-value">82%</div>
+                                <div class="progr-bar">
+                                    <span class="progr-bar-blue"></span>
+                                </div>
+                            </div>
+                            <div class="progr illustrator mt-3">
+                                <h4 class="progr-title">illustrator</h4>
+                                <div class="progr-value">94%</div>
+                                <div class="progr-bar">
+                                    <span class="progr-bar-blue"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="subheading">
+                                <h3>coding skills</h3>
+                            </div>
+                            <div class="progr html">
+                                <h4 class="progr-title">html5</h4>
+                                <div class="progr-value">83%</div>
+                                <div class="progr-bar">
+                                    <span class="progr-bar-blue"></span>
+                                </div>
+                            </div>
+                            <div class="progr css mt-3">
+                                <h4 class="progr-title">css3</h4>
+                                <div class="progr-value">75%</div>
+                                <div class="progr-bar">
+                                    <span class="progr-bar-blue"></span>
+                                </div>
+                            </div>
+                            <div class="progr javascript mt-3">
+                                <h4 class="progr-title">javascript</h4>
+                                <div class="progr-value">92%</div>
+                                <div class="progr-bar">
+                                    <span class="progr-bar-blue"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sec-4 mySlide fade-anim">
+                <div class="container">
+                    <h2>Portfolio. <i class="fa fa-briefcase" aria-hidden="true"></i></h2>
+                    <div class="row">
+                        <div class="col-12 col-lg-8">
+                            <a href="https://opksao.ru/"><img src="./assets/images/real-opksao.jpg" alt="real-project-1"></a>
+                            <a href="https://iconmasterchurch.com/"><img src="./assets/images/real-icon.jpg" alt="real-project-2"></a>
+                            <div class="row mt-3">
+                                <div class="col-12 col-md-6"><a href="https://kakostom.colin990.com/merkury.aa/"><img src="./assets/images/merkury.aa.jpg" alt="proj"></a></div>
+                                <div class="col-12 col-md-6"><a href="https://kakostom.colin990.com/creative.digital/"><img src="./assets/images/creative.digital.jpg" alt="proj"></a></div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <a href="https://kakostom.colin990.com/4proj/"><img src="./assets/images/4pr.jpg" alt="first-projects"></a>
+                            <a href="https://kakostom.colin990.com/5proj/"><img src="./assets/images/5pr.jpg" alt="first-projects"></a>
+                            <a href="https://kakostom.colin990.com/6proj/"><img src="./assets/images/6pr.jpg" alt="first-projects"></a>
+                            <a href="https://kakostom.colin990.com/2proj/"><img src="./assets/images/2pr.jpg" alt="first-projects"></a>
+                            <a href="https://kakostom.colin990.com/1proj/"><img src="./assets/images/1pr.jpg" alt="first-projects"></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="castom-block col-12 col-lg-6">
+                            <a href="https://kakostom.colin990.com/meetup.envato/"><img class="w-bigger" src="./assets/images/meetup.envato.jpg" alt="proj"></a>
+                            <a href="https://kakostom.colin990.com/my.health"><img class="w-smaller" src="./assets/images/my.health.jpg" alt="proj"></a>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <a href="https://kakostom.colin990.com/ustav.artems/"><img src="./assets/images/ustav.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sec-5 mySlide fade-anim">
+                <div class="container">
+                    <h2>Ваш блог :) <i class="fa fa-book" aria-hidden="true"></i></h2>
+                    <div class="row blog">
+                        <div class="col-12 col-md-4">
+                            <div class="blog-item">
+                                <div class="blog-item-img"><img src="./assets/images/img-41.jpg" alt="blog-1"></div>
+                                <div class="blog-item-content">
+                                    <span class="categ">web design</span>
+                                    <h4 class="title">best way to design</h4>
+                                    <div class="date">August 15, 2020</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="blog-item">
+                                <div class="blog-item-img"><img src="./assets/images/img-42.jpg" alt="blog-2"></div>
+                                <div class="blog-item-content">
+                                    <span class="categ">personal</span>
+                                    <h4 class="title">things I need to get started</h4>
+                                    <div class="date">August 10, 2020</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="blog-item">
+                                <div class="blog-item-img"><img src="./assets/images/img-43.jpg" alt="blog-3"></div>
+                                <div class="blog-item-content">
+                                    <span class="categ">design</span>
+                                    <h4 class="title">my current workspace</h4>
+                                    <div class="date">August 4, 2020</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="blog-item">
+                                <div class="blog-item-img"><img src="./assets/images/img-44.jpg" alt="blog-4"></div>
+                                <div class="blog-item-content">
+                                    <span class="categ">Web Design</span>
+                                    <h4 class="title">Latest UI Trends to Inspired From</h4>
+                                    <div class="date">July 28, 2020</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mt-4">
+                            <div class="blog-item">
+                                <div class="blog-item-img"><img src="./assets/images/img-45.jpg" alt="blog-5"></div>
+                                <div class="blog-item-content">
+                                    <span class="categ">Traveling</span>
+                                    <h4 class="title">Best Place to Travel this Summer</h4>
+                                    <div class="date">July 26, 2020</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="blog-item">
+                                <div class="blog-item-img"><img src="./assets/images/img-46.jpg" alt="blog-6"></div>
+                                <div class="blog-item-content">
+                                    <span class="categ">Technology</span>
+                                    <h4 class="title">Latest Tech 2020</h4>
+                                    <div class="date">July 20, 2020</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="blog-item">
+                                <div class="blog-item-img"><img src="./assets/images/img-47.jpg" alt="blog-7"></div>
+                                <div class="blog-item-content">
+                                    <span class="categ">LifeStyle</span>
+                                    <h4 class="title">Best & Easy To cook</h4>
+                                    <div class="date">July 12, 2020</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 mt-4">
+                            <div class="blog-item">
+                                <div class="blog-item-img"><img src="./assets/images/img-48.jpg" alt="blog-8"></div>
+                                <div class="blog-item-content">
+                                    <span class="categ">Technology</span>
+                                    <h4 class="title">Best Sound Editing Software</h4>
+                                    <div class="date">July 3, 2020</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="blog-item">
+                                <div class="blog-item-img"><img src="./assets/images/img-49.jpg" alt="blog-9"></div>
+                                <div class="blog-item-content">
+                                    <span class="categ">Traveling</span>
+                                    <h4 class="title">Top Beaches in the world</h4>
+                                    <div class="date">June 25, 2020</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sec-6 mySlide fade-anim">
+                <div class="container">
+                    <h2>Contact Me. <i class="fa fa-envelope" aria-hidden="true"></i></h2>
+                    <div class="subheading">
+                        <h3>let's talk</h3>
+                    </div>
+                    <div class="soc-net d-flex justify-content-center">
+                        <a href="https://vk.com/proger_art" class="soc-net-item"><i class="fab fa-vk"></i></a>
+                        <a href="https://www.facebook.com/artpan1302" class="soc-net-item"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://t.me/ArtPan1302" class="soc-net-item"><i class="fab fa-telegram-plane"></i></a>
+                        <a href="mailto:der1302@mail.ru" class="soc-net-item"><i class="far fa-envelope-open"></i></a>
+                    </div>
+                    <div class="ya-maps"><img src="./assets/images/map.jpg" alt="map"></div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="./assets/plugins/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <script type="text/javascript" src="./assets/plugins/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./assets/plugins/bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
